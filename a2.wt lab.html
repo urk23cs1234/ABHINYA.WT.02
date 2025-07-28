@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Application Form</title>
+</head>
+<body style="font-family: Arial; background-color: #f0f8ff; padding: 20px;">
+
+    <h2>Loan Application Form</h2>
+
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Loan Type:</label><br>
+        <select name="loan_type" required>
+            <optgroup label="Personal">
+                <option>Home Loan</option>
+                <option>Education Loan</option>
+            </optgroup>
+            <optgroup label="Business">
+                <option>Startup Loan</option>
+                <option>Business Expansion</option>
+            </optgroup>
+        </select><br><br>
+
+        <label>Loan Amount:</label><br>
+        <input type="number" name="amount" required><br><br>
+
+        <label>City:</label><br>
+        <input list="cities" name="city">
+        <datalist id="cities">
+            <option value="Chennai">
+            <option value="Mumbai">
+            <option value="Delhi">
+        </datalist><br><br>
+
+        <label>Purpose of Loan:</label><br>
+        <textarea name="purpose" rows="4" cols="30" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset"><br><br>
+
+        <h4>Loan Tutorial Video:</h4>
+        <iframe width="300" height="200" src="C:\Users\ihban\Downloads\exp2.wt lab.vid.mp4" allowfullscreen></iframe><br><br>
+
+        <h4>Our Location:</h4>
+        <iframe width="300" height="200" 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.509125441159!2d72.83105907516377!3d18.92198425639037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1d256e4b5d9%3A0x5df4f0b6fa1d3b0d!2sThe%20Taj%20Mahal%20Palace%2C%20Mumbai!5e0!3m2!1sen!2sin!4v1722170176906!5m2!1sen!2sin" 
+allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+    </form>
+
+</body>
+</html>
